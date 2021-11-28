@@ -1,0 +1,245 @@
+<!doctype html>
+
+<html lang="EN">
+    <head>
+        <!-- --- Meta ------------------------------------------------------------------------------------------------>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- --- Links ----------------------------------------------------------------------------------------------->
+        <link href="public/style.css" rel="stylesheet">
+
+        <!-- --- Title ----------------------------------------------------------------------------------------------->
+        <title>HTML/CSS</title>
+    </head>
+
+    <body>
+        <!-- --- Nav ------------------------------------------------------------------------------------------------->
+        <nav>
+            <div class="nav-container">
+                <a href="#" class="nav-logo">
+                    NFTOP
+                </a>
+
+                <ul class="nav-links">
+                    <li>
+                        <a href="#" class="nav-links-text hidden lg:block">
+                            Advertise
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav-links-text border border-gray-400 rounded-2xl px-4 py-1 hidden lg:block">
+                            List NFT
+                        </a>
+                    </li>
+
+                    <li>
+                        <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400" aria-controls="mobile-menu" aria-expanded="false">
+                            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button type="button" class="bg-gray-200 inline-flex h-6 w-11 border-2 rounded-full" role="switch" aria-checked="false">
+                            <span class="relative h-5 w-5 rounded-full bg-white shadow flex items-center justify-center">
+                                  <svg class="h-3 w-3 text-gray-400" fill="none" viewBox="0 0 12 12"><path d="M4 8l2-2m0 0l2-2M6 6L4 4m2 2l2 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                            </span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- --- Featured NFTS --------------------------------------------------------------------------------------->
+        <div class="container mt-10">
+            <div class="flex items-center justify-between mb-4">
+                <div class="text-2xl text-gray-700 font-semibold">
+                    Featured NFTS
+                </div>
+
+                <a href="" class="underline text-gray-600">
+                    Advertise with us
+                </a>
+            </div>
+
+
+            <div class="grid grid-cols-3 gap-2 lg:gap-8 lg:grid-cols-5 ">
+                <div class="bg-gray-300 p-1 rounded-md cursor-pointer lg:p-1.5">
+                    <div class="bg-gray-100 h-20 lg:h-52 overflow-hidden rounded-md">
+                        <img class="h-full w-full object-cover" src="public/images/img1.png" alt="">
+                    </div>
+
+                    <div class="text-center text-gray-700 py-2 lg:py-3">
+                        Slimy Skater
+                    </div>
+                </div>
+
+                <div class="bg-gray-300 p-1 rounded-md cursor-pointer lg:p-1.5">
+                    <div class="bg-gray-100 h-20 lg:h-52 overflow-hidden rounded-md">
+                        <img class="h-full w-full object-cover" src="public/images/img2.png" alt="">
+                    </div>
+
+                    <div class="text-center text-gray-700 py-2 lg:py-3">
+                        Sota
+                    </div>
+                </div>
+
+                <div class="bg-gray-300 p-1 rounded-md cursor-pointer lg:p-1.5">
+                    <div class="bg-gray-100 h-20 lg:h-52 overflow-hidden rounded-md">
+                        <img class="h-full w-full object-cover" src="public/images/img3.png" alt="">
+                    </div>
+
+                    <div class="text-center text-gray-700 py-2 lg:py-3">
+                        Creemo
+                    </div>
+                </div>
+
+                <div class="bg-gray-300 p-1 rounded-md cursor-pointer lg:p-1.5">
+                    <div class="bg-gray-100 h-20 lg:h-52 overflow-hidden rounded-md">
+                        <img class="h-full w-full object-cover" src="public/images/img4.png" alt="">
+                    </div>
+
+                    <div class="text-center text-gray-700 py-2 lg:py-3">
+                        Yua Mikami
+                    </div>
+                </div>
+
+                <div class="bg-gray-300 p-1 rounded-md cursor-pointer lg:p-1.5">
+                    <div class="bg-gray-100 h-20 lg:h-52 overflow-hidden rounded-md">
+                        <img class="h-full w-full object-cover" src="public/images/img5.png" alt="">
+                    </div>
+
+                    <div class="text-center text-gray-700 py-2 lg:py-3">
+                        ethereBB's
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- --- Best NFTS ------------------------------------------------------------------------------------------->
+        <div class="container mt-10">
+            <div class="text-2xl text-gray-700 font-semibold mb-2">
+                Best NFTS
+            </div>
+
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                    <span class="text-gray-800 border-b-2 py-1 border-gray-800">
+                        Today
+                    </span>
+
+                    <span class="text-gray-500">
+                        All Time
+                    </span>
+                </div>
+            </div>
+
+            <div class="min-w-full text-center mt-4">
+                <div class="bg-gray-50 text-sm font-medium text-gray-400 py-2 grid grid-cols-4 lg:grid-cols-9">
+                    <div class="hidden lg:block">#</div>
+                    <div>NFT</div>
+                    <div class="hidden lg:block">Chain</div>
+                    <div>Price</div>
+                    <div>Buyers</div>
+                    <div class="hidden lg:block">Launch Date</div>
+                    <div class="hidden lg:block">Age</div>
+                    <div class="hidden lg:block">Type</div>
+                    <div>Vote</div>
+                </div>
+
+                <div class="bg-white font-medium text-sm text-gray-600 py-3 grid items-center grid-cols-4 lg:grid-cols-9">
+                    <div class="hidden lg:block">1</div>
+                    <div>
+                        <div class="flex justify-center items-center">
+                            <img class="h-10 w-10 rounded-md" src="public/images/img1.png" alt="">
+
+                            <div class="ml-4 text-sm font-medium text-gray-600 hidden lg:block">
+                                Slimy
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center items-center hidden lg:flex">
+                        <img class="h-10 rounded-md" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/1257px-Ethereum_logo_2014.svg.png" alt="">
+
+                        <div class="ml-4 text-sm font-medium text-gray-600">
+                            ETH
+                        </div>
+                    </div>
+                    <div>$0.25</div>
+                    <div>5,242</div>
+                    <div class="hidden lg:block">02/04/21</div>
+                    <div class="hidden lg:block">5 days</div>
+                    <div class="hidden lg:block">Single</div>
+                    <div class="mx-2 bg-gray-600 text-white rounded-full p-2 cursor-pointer text-center">
+                        Vote
+                    </div>
+                </div>
+
+                <div class="bg-gray-100 font-medium text-sm text-gray-600 py-3 grid items-center grid-cols-4 lg:grid-cols-9">
+                    <div class="hidden lg:block">2</div>
+                    <div>
+                        <div class="flex justify-center items-center">
+                            <img class="h-10 w-10 rounded-md" src="public/images/img2.png" alt="">
+
+                            <div class="ml-4 text-sm font-medium text-gray-600 hidden lg:block">
+                                Sota
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center items-center hidden lg:flex">
+                        <img class="h-10 rounded-md" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/1257px-Ethereum_logo_2014.svg.png" alt="">
+
+                        <div class="ml-4 text-sm font-medium text-gray-600">
+                            ETH
+                        </div>
+                    </div>
+                    <div>$0.25</div>
+                    <div>5,242</div>
+                    <div class="hidden lg:block">02/04/21</div>
+                    <div class="hidden lg:block">5 days</div>
+                    <div class="hidden lg:block">Single</div>
+                    <div class="mx-2 bg-gray-600 text-white rounded-full p-2 cursor-pointer text-center">
+                        Vote
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- --- Footer ---------------------------------------------------------------------------------------------->
+        <footer>
+            <div class="container">
+                <div class="footer-top">
+                    <div class="footer-logo">NFTOP</div>
+                    <div class="footer-top-links">
+                        <a href="">Advertise</a>
+                        <a href="">List NFT</a>
+                        <a href="">Contacts</a>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="footer-bottom-links">
+                        <a href="">Terms</a>
+                        <a href="">Privacy policy</a>
+                    </div>
+                    <div class="footer-copyright">&copy; NFTOP, Inc. All Rights reserved.</div>
+
+                    <div class="footer-social">
+                        <div class="footer-social-icon"></div>
+                        <div class="footer-social-icon"></div>
+                        <div class="footer-social-icon"></div>
+                        <div class="footer-social-icon"></div>
+                        <div class="footer-social-icon"></div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
